@@ -52,6 +52,10 @@
         MEMORY_PER_PROC              16
         EPS_FILTER               1.0E-6
       &END
+      &DOS
+        ! should be increased
+        KPOINTS 2 2 1
+      &END 
       &SOC
         ENERGY_WINDOW              20.0
       &END
